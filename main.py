@@ -2,8 +2,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QHBoxLayout, QLabel, QVBoxLayout
 from PyQt5.QtCore import Qt
-from singleFaceRec import VideoPlayer as SingleFaceVideoPlayer
-from parallel import VideoPlayer as ParallelVideoPlayer
+from FaceRec_ST import VideoPlayer as SingleFaceVideoPlayer
+from FaceRec_MT import VideoPlayer as ParallelVideoPlayer
 
 class ComparisonWindow(QWidget):
     def __init__(self):
